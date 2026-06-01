@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+JP:wght@300;500&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">PORTFOLIO</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1 class="fade-in">Hello World!</h1>
+            <p class="fade-in">pine_hillのホームページです！</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="scroll-reveal">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-flex">
+                    <div class="about-text">
+                        <p>高校1年生の男子です！</p>
+                        <p>好きなゲームはマリオ、カービィ、ポケモン、</p>
+                        <p>ファイアーエムブレム、ルーンファクトリーなどです！</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="scroll-reveal">
+            <div class="container">
+                <h2>Works</h2>
+                <div class="grid">
+                    <a href="https://scratch.mit.edu/projects/1323431407/" target="_blank">
+                        <div class="card">
+                            <img src="./img/kirakira.png" alt="">
+                            <h3>キラキラストーンパズル</h3>
+                            <p>物理演算を使ったパズルゲームです！</p>
+                        </div>
+                    </a>
+                    <a href="https://scratch.mit.edu/projects/1297218598/" target="_blank">
+                        <div class="card">
+                            <img src="./img/taosudake.png" alt="">
+                            <h3>マリオを倒すだけ。</h3>
+                            <p>すごく頑張ったSRPGです！</p>
+                        </div>
+                    </a>
+                    <a href="https://scratch.mit.edu/projects/1169545922/" target="_blank">
+                        <div class="card">  
+                            <img src="./img/pokemon.png" alt="">
+                            <h3>ポケモン×サクセス</h3>
+                            <p>一時間で終わる短編RPGです！</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="scroll-reveal">
+            <div class="container">
+                <h2>Blog</h2>
+                <article class="blog-item">
+                    <span class="date">2026.06.01</span>
+                    <h3>今日の落書き</h3>
+                    <div class="blogP hidden">
+                        <p>ヨッシーの落書きです。</p>
+                        <img src="./img/rakugaki.jpg" alt="">
+                    </div>
+                </article>
+                <article class="blog-item">
+                    <span class="date">2026.06.01</span>
+                    <h3>ブログを開設しました！</h3>
+                    <div class="blogP hidden">
+                        <p>
+                            ブログを開設しました！<br>
+                            ここでは、ゲームの進捗などを公開する予定です！
+                        </p>
+                    </div>
+                </article>
+    </main>
+</body>
