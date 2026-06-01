@@ -35,8 +35,12 @@ h2::after {
     display: block;
     width: 50px;
     height: 3px;
-    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    background: linear-gradient(90deg, #230049 0%, #3e25fc 100%);
     margin: 15px auto 0;
+}
+
+h3{
+    margin: 50px 0px;
 }
 
 /* ヘッダー & ヒーローエリア */
