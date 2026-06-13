@@ -11,7 +11,7 @@ const revealOnScroll = () => {
         const elTop = el.getBoundingClientRect().top;
         if (elTop < triggerBottom) {
             el.classList.add('active');
-        }
+        }   
     });
 };
 window.addEventListener('scroll', revealOnScroll);
